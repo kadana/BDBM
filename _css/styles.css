@@ -32,15 +32,18 @@ body {
 /*---------------------
 | Nav
 ---------------------*/
-a.sm {
+/*a.sm {
 	font-size: 20px;
 	color: red;
 
 	margin-left: 0px;
 	margin-right: 0px;
 	padding: 0px;
-}
+}*/
 
+.navbar a {
+	line-height: 50px;
+}
 .navbar {
 	background-color: #fffbed;
 	box-shadow: none;
@@ -181,7 +184,109 @@ p {
 | Footer
 ---------------------*/
 footer {
-	margin-top: 20px;
+	margin-top: 50px;
 	text-align: center;
+}
+
+/*---------------------
+| Media Queries 
+---------------------*/
+/*Custom, iPhone Retina*/
+@media only screen and (min-width : 320px) {
+	h1 {
+		font-size: 20px;
+		color: #331956;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		
+	}
+	#lastWords {
+		font-size: 20px;
+	}
+}
+/*Extra Small Devices, Phones*/
+@media only screen and (min-width : 480px) {
+	body {
+		font-size: 15px;
+	}
+	h1 {
+		font-size: 30px;
+		color: #331956;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 20px;
+	}
+	img {
+		margin-bottom: 0px;
+	}
+	#lastWords {
+		font-size: 35px;
+		margin-bottom: 3px;
+	}
+/*Small Devices, Tablets*/
+@media only screen and (min-width : 768px) {
+	body {
+		font-size: 20px;
+		margin: 10px;
+	}
+	h1 {
+		font-size: 30px;
+		color: #331956;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 15px;
+		
+	}
+	img {
+		width: 100%;
+	}
+	#lastWords {
+		font-size: 40px;
+	}
+
+}
+/*Medium Devices, Desktops*/
+@media only screen and (min-width : 992px) {
+	h1 {
+		font-size: 35px;
+		color: #331956;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 20px;
+		
+	}
+	#lastWords {
+		font-size: 50px;
+
+	}
+}
+/* Large Devices, Wide Screens*/
+@media only screen and (min-width : 1200px) {
+	h1 {
+		font-size: 40px;
+		color: #331956;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		
+	}
+	#lastWords {
+		font-size: 50px;
+		margin-right: 100px;
+	}
 }
 
