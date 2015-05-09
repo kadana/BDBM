@@ -1,5 +1,4 @@
 @import url(../_fonts/icomoon/style.css);
-@import url(../_fonts/);
 
 * {
 	font-family: helvetica,arial,sans-serif;
@@ -25,33 +24,58 @@ body {
 /*---------------------
 | Header
 ---------------------*/
-#logo {
-	float: left;
-	margin-top: -15px;
+#main {
+	margin-top: 30px;
 }
-.Hnav {
-	background-color: #fffbed;
-	padding: 5px;
-	margin-top: 20px;
-}
-.Hnav a {
-	color: #331956;
-	text-align: center;
-	font-style: italic;
-	font-weight: lighter;
 
-	font-size: 12px;
-	margin-left: 5px;
-	margin-right: 10px;
+
+/*---------------------
+| Nav
+---------------------*/
+/*a.sm {
+	font-size: 20px;
+	color: red;
+
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}*/
+
+.navbar a {
+	line-height: 50px;
 }
-.Hnav #Glink {
-	margin-right: 15px;
+.navbar {
+	background-color: #fffbed;
+	box-shadow: none;
+	border: none;
+	border-radius: none;
+
 }
+.navbar-default .navbar-toggle {
+	border-color: #331956;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	color: #fffbed;
+	background-color: #331956;
+}
+.links {
+	background-color: #fffbed !important;
+	color: #331956 !important;
+}
+.links:hover, .links:focus {
+	background-color: #331956 !important;
+	color: #fffbed !important;
+}
+
+.collapsed:hover {
+	background-color: #331956;
+}
+
 /*---------------------
 | Carousel
 ---------------------*/
 #carousel {
-	margin-top: 20px;
+/*	margin-top: 20px;*/
 	margin-bottom: 20px;
 }
 
@@ -150,11 +174,119 @@ p {
 .contact {
 	margin-top: 25px;
 }
+#contactForm {
+	width: 90%;
+}
+#cForm {
 
+}
 /*---------------------
 | Footer
 ---------------------*/
 footer {
-	margin-top: 20px;
+	margin-top: 50px;
 	text-align: center;
 }
+
+/*---------------------
+| Media Queries 
+---------------------*/
+/*Custom, iPhone Retina*/
+@media only screen and (min-width : 320px) {
+	h1 {
+		font-size: 20px;
+		color: #331956;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		
+	}
+	#lastWords {
+		font-size: 20px;
+	}
+}
+/*Extra Small Devices, Phones*/
+@media only screen and (min-width : 480px) {
+	body {
+		font-size: 15px;
+	}
+	h1 {
+		font-size: 30px;
+		color: #331956;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 20px;
+	}
+	img {
+		margin-bottom: 0px;
+	}
+	#lastWords {
+		font-size: 35px;
+		margin-bottom: 3px;
+	}
+/*Small Devices, Tablets*/
+@media only screen and (min-width : 768px) {
+	body {
+		font-size: 20px;
+		margin: 10px;
+	}
+	h1 {
+		font-size: 30px;
+		color: #331956;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 15px;
+		
+	}
+	img {
+		width: 100%;
+	}
+	#lastWords {
+		font-size: 40px;
+	}
+
+}
+/*Medium Devices, Desktops*/
+@media only screen and (min-width : 992px) {
+	h1 {
+		font-size: 35px;
+		color: #331956;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 20px;
+		
+	}
+	#lastWords {
+		font-size: 50px;
+
+	}
+}
+/* Large Devices, Wide Screens*/
+@media only screen and (min-width : 1200px) {
+	h1 {
+		font-size: 40px;
+		color: #331956;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		
+	}
+	#lastWords {
+		font-size: 50px;
+		margin-right: 100px;
+	}
+}
+
