@@ -1,5 +1,4 @@
 @import url(../_fonts/icomoon/style.css);
-@import url(../_fonts/);
 
 * {
 	font-family: helvetica,arial,sans-serif;
@@ -25,33 +24,55 @@ body {
 /*---------------------
 | Header
 ---------------------*/
-#logo {
-	float: left;
-	margin-top: -15px;
+#main {
+	margin-top: 30px;
 }
-.Hnav {
-	background-color: #fffbed;
-	padding: 5px;
-	margin-top: 20px;
-}
-.Hnav a {
-	color: #331956;
-	text-align: center;
-	font-style: italic;
-	font-weight: lighter;
 
-	font-size: 12px;
-	margin-left: 5px;
-	margin-right: 10px;
+
+/*---------------------
+| Nav
+---------------------*/
+a.sm {
+	font-size: 20px;
+	color: red;
+
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
 }
-.Hnav #Glink {
-	margin-right: 15px;
+
+.navbar {
+	background-color: #fffbed;
+	box-shadow: none;
+	border: none;
+	border-radius: none;
+
 }
+.navbar-default .navbar-toggle {
+	border-color: #331956;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	color: #fffbed;
+	background-color: #331956;
+}
+.links {
+	background-color: #fffbed !important;
+	color: #331956 !important;
+}
+.links:hover, .links:focus {
+	background-color: #331956 !important;
+	color: #fffbed !important;
+}
+
+.collapsed:hover {
+	background-color: #331956;
+}
+
 /*---------------------
 | Carousel
 ---------------------*/
 #carousel {
-	margin-top: 20px;
+/*	margin-top: 20px;*/
 	margin-bottom: 20px;
 }
 
@@ -150,7 +171,12 @@ p {
 .contact {
 	margin-top: 25px;
 }
+#contactForm {
+	width: 90%;
+}
+#cForm {
 
+}
 /*---------------------
 | Footer
 ---------------------*/
@@ -158,3 +184,4 @@ footer {
 	margin-top: 20px;
 	text-align: center;
 }
+
