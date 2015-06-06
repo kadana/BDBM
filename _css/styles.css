@@ -11,14 +11,17 @@
 }
 body {
 	background-color: #fffbed;
-
+	background-image: url(../_img/tile2.png);
 }
+
 /*---------------------
 | Container
 ---------------------*/
 #container-fluid {
 	text-align: center;
 	margin: 0px;
+
+
 }
 	
 /*---------------------
@@ -26,6 +29,7 @@ body {
 ---------------------*/
 #main {
 	margin-top: 30px;
+	
 }
 
 
@@ -45,7 +49,7 @@ body {
 	line-height: 50px;
 }
 .navbar {
-	background-color: #fffbed;
+	background-color: rgba(255, 251, 237, .2);
 	box-shadow: none;
 	border: none;
 	border-radius: none;
@@ -59,7 +63,7 @@ body {
 	background-color: #331956;
 }
 .links {
-	background-color: #fffbed !important;
+	background-color: rgba(255, 251, 237, .2)!important;
 	color: #331956 !important;
 }
 .links:hover, .links:focus {
@@ -67,10 +71,10 @@ body {
 	color: #fffbed !important;
 }
 
-.collapsed:hover {
-	background-color: #331956;
+/*.collapsed:hover {
+	background-color: rgba(255, 251, 237, .2);
 }
-
+*/
 /*---------------------
 | Carousel
 ---------------------*/
@@ -88,7 +92,7 @@ body {
 
 	margin-left: auto;
 	margin-right: auto;
-	opacity: .7;
+	opacity: .8;
 
 }
 .images:hover {
@@ -290,3 +294,19 @@ footer {
 	}
 }
 
+.well {
+	background-color: #fffbed;
+	margin-top: 10px;
+	border: none;
+
+	color: #331956;
+	font-family: 'Lato', sans-serif;
+}
+.well h2 {
+	font-size: 22px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+.well li {
+	font-style: italic;
+}
