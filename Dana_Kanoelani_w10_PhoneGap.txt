@@ -1,0 +1,16 @@
+Kanoelani Dana
+June 12, 2015
+
+Phone Gap Plugins
+
+1) Social Sharing Plugin: Allows users to share text, images, files and links across their device on social media platforms like Facebook, and Twitter, through text message and messaging apps, or share to their email. 
+
+I’d choose this plugin because I want my app to deal with the socialites and foodies, so I would want them to be able to share their photos and experiences across their social media platforms so others can see their images and experiences. 
+
+2)Zoom Control Plugin: Allows users to control the magnification of the content. 
+
+I’d use this plugin because I’d want my app to have flexibility with the size of the content. I’ve experienced it first hand where there would be an image or content that I’d like to see close up and not have the ability to zoom in is frustrating to users.
+
+3)Image Picker Plugin: This plugin allows users to select multiple images from the user gallery. 
+
+I’d use this plugin due to the my app possibly being forum based it would be a good way to allow users to upload multiple images at once and through this plugin it will allow the user to pick multiple images at once. 
